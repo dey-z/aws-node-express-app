@@ -1,6 +1,6 @@
 # aws-node-express-app
 
-An express web app calling AWS services from backend after uploading file from browser/UI
+An [express](https://expressjs.com/) web app calling AWS services from backend after uploading file from browser/UI
 
 # image background
 
@@ -21,3 +21,4 @@ NODE_ENV=<env> npm start
 - csv files < 50MB can only be uploaded using multer -> S3 upload
 - using AWS default credentials either in profile or IAM role
 - env settings in config directory, for local change local_sample.js to local.js
+- used [Express generator](https://expressjs.com/en/starter/generator.html) for the project
