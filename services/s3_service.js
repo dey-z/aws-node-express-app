@@ -3,7 +3,7 @@ var cfg = require("../config/cfg");
 
 exports.s3Upload = async function(file, filename, empty) {
   const s3  = new S3();
-  s3.config.update({ region: "ap-northeast-1" });
+  // s3.config.update({ region: "ap-northeast-1" });
 
   var params = {};
 
