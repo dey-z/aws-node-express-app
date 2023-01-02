@@ -18,6 +18,6 @@ NODE_ENV=<env> npm start
 
 # basic info about the web app
 
-> csv files < 50MB can only be uploaded using multer -> S3 upload
-> using AWS default credentials either in profile or IAM role
-> env settings in config directory, for local change local_sample.js to local.js
+- csv files < 50MB can only be uploaded using multer -> S3 upload
+- using AWS default credentials either in profile or IAM role
+- env settings in config directory, for local change local_sample.js to local.js
