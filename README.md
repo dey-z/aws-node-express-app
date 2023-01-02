@@ -1,4 +1,4 @@
-# aws-node-express-app
+# aws-node-express-uploader
 
 An [express](https://expressjs.com/) web app calling AWS services from backend after uploading file from browser/UI
 
