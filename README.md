@@ -22,5 +22,5 @@ NODE_ENV=<env> npm start
 
 - csv files < 50MB can only be uploaded using multer -> S3 upload
 - using AWS default credentials either in profile or IAM role
-- env settings in config directory, for local change local_sample.js to local.js
+- env settings in config directory, for local change **/config/local_sample.js** to **/config/local.js**
 - used [Express generator](https://expressjs.com/en/starter/generator.html) for the project
