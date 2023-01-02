@@ -24,4 +24,3 @@ NODE_ENV=<env> npm start
 - using AWS default credentials either in profile or IAM role
 - env settings in config directory, for local change **/config/local_sample.js** to **/config/local.js**
 - used [Express generator](https://expressjs.com/en/starter/generator.html) for the project
--
