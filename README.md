@@ -1,6 +1,8 @@
 # aws-node-express-app
 
 An [express](https://expressjs.com/) web app calling AWS services from backend after uploading file from browser/UI
+<img width="1440" alt="Screen Shot 2023-01-02 at 16 09 43" src="https://user-images.githubusercontent.com/48423778/210202794-df0ea111-a880-4656-a9e3-a19200f5a040.png">
+
 
 # image background
 
