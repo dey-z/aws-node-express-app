@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  #main
+    h1= h1_1
+    h1= h1_2
+    br
+    h3 Please choose file and upload
+    #form
+      hr
+      form(action='javascript:handleSubmit()')
+        input#csv-file(type='file', name='filename' accept='.csv', required='')
+        button#csv-file-upload-button Upload
+      br
+    #process
+      h2 Processing...
+      img#processing-image(src='./images/transparent.gif', alt='Loading...')
+    #request-status
+      h2#request-id
+      #response-result
+  include footer
+  script(src='/javascripts/processing_client.js')
