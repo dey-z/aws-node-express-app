@@ -6,6 +6,11 @@ An [express](https://expressjs.com/) web app calling AWS services from backend a
 
 <a href="https://www.freepik.com/free-vector/blue-curve-frame-template_16326538.htm#query=blue%20background&position=1&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
 
+# install libraries
+```
+npm install
+```
+
 # server start(refer /config for configurable env)
 
 ```
