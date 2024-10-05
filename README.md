@@ -4,14 +4,15 @@ An [express](https://expressjs.com/) web app calling AWS services from backend a
 
 # image background
 
-<a href="https://www.freepik.com/free-vector/blue-curve-frame-template_16326538.htm#query=blue%20background&position=1&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
+<a href="https://www.freepik.com/free-vector/blue-curve-background_16282280.htm#fromView=image_search_similar&page=1&position=22&uuid=b7ed21cd-8b9b-4f13-ad5a-497a79bd1f85">Image by rawpixel.com</a> on Freepik
 
 # install libraries
+
 ```
-npm install
+npm ci
 ```
 
-# server start(refer /config for configurable env)
+# server start(refer /config for configurable env, copy local_sample.js to local.js)
 
 ```
 NODE_ENV=<env> npm start
